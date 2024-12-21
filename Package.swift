@@ -7,7 +7,8 @@ let package = Package(
     name: "LucideIcons",
 	platforms: [
 		.iOS(.v13),
-		.macOS(.v10_13)
+		.macOS(.v10_13),
+        .watchOS(.v6)
 	],
     products: [
         .library(
