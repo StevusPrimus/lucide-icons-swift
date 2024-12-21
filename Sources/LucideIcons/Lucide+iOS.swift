@@ -1,7 +1,7 @@
 // This is autogenarated file
 // DO NOT EDIT
 
-#if os(iOS)
+#if canImport(UIKit)
 import UIKit
 
 extension Lucide {

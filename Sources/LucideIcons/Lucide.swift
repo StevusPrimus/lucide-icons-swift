@@ -9,7 +9,7 @@ public struct Lucide {
 import UIKit
 public extension UIImage {
 	convenience init?(lucideId: String) {
-		self.init(named: lucideId, in: Bundle.module, compatibleWith: nil)
+		self.init(named: lucideId, in: Bundle.module, with: nil)
 	}
 }
 #endif
